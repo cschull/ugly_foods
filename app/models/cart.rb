@@ -19,7 +19,7 @@ class Cart < ApplicationRecord
       item_sum = product_selection.total_price
       sum += item_sum
     end
-    return sum.round(2)
+    return sum.round
 
   end
 
